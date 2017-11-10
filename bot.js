@@ -19,7 +19,7 @@ client.on('guildMemberAdd', member => {
        member.addRole('340748473421004801').catch(console.error);
 });
 
-client.on("message", msg => {
+client.on("message", message => {
 	let prefix = "!";
 	
 	console.log(0)
