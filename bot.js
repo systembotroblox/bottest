@@ -56,7 +56,7 @@ client.on("message", message => {
 	}
 	
 	console.log(XP)
-	fs.writeFile('./XP.json', JSON.stringify(XP), console.error);
+	fs.writeFile('https://github.com/systembotroblox/bottest/blob/master/XP.json', JSON.stringify(XP), console.error);
 	
 });
 
